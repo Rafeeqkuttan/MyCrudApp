@@ -1,0 +1,23 @@
+<div class="container">
+    <legend>Edit Item</legend>
+    <form>
+        <div class="mb-3">
+            <label for="txtName" class="form-label">Name</label>
+            <input type="text" name="name" [(ngModel)]="formdata.name" class="form-control" id="txtName" />
+        </div>
+                <div class="mb-3">
+            <label for="txtEducation" class="form-label">Education</label>
+            <input type="text" name="education" [(ngModel)]="formdata.education" class="form-control" id="txtEducation" />
+        </div>        
+        <div class="mb-3">
+            <label for="txtAge" class="form-label">Age</label>
+            <input type="text" name="age" [(ngModel)]="formdata.age" class="form-control" id="txtAge" />
+        </div>        
+        <div class="mb-3">
+            <label for="txtJob" class="form-label">Job</label>
+            <input type="text" name="job" [(ngModel)]="formdata.job" class="form-control" id="txtJob" />
+        </div>
+        <button type="button" (click)="update()" class="btn btn-primary">Update</button>
+    </form>
+</div>
+

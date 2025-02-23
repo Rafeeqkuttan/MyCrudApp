@@ -1,0 +1,73 @@
+button {
+    font-weight: bold;
+    margin: 5px;
+    text-transform: uppercase;
+}
+
+.mat-raised-button {
+    border-radius: 8px;
+    padding: 8px 16px;
+}
+
+.mat-raised-button:hover {
+    opacity: 0.9;
+}
+
+.mat-icon {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+a[mat-raised-button] {
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 8px;
+    padding: 8px 16px;
+}
+
+.mat-icon {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.container {
+    width: 100%;
+    margin: 20px auto;
+    overflow-x: auto;
+}
+
+.custom-table {
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    border-collapse: collapse;
+}
+
+th.mat-header-cell,
+td.mat-cell {
+    text-align: left;
+    padding: 12px;
+}
+
+th.mat-header-cell {
+    background-color: #1976d2;
+    color: white;
+    font-weight: bold;
+}
+
+td.mat-cell {
+    border-bottom: 1px solid #ddd;
+}
+
+tr.mat-row:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.action-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+button mat-icon {
+    font-size: 18px;
+}

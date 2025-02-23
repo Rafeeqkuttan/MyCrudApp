@@ -1,0 +1,39 @@
+{
+  "employee": [
+    {
+      "id": 1,
+      "name": "Muhammed Rafeeque",
+      "education": "Muhammed Rafeeq",
+      "age": "900",
+      "job": "Muhamme"
+    },
+    {
+      "id": 2,
+      "name": "Jerald Mathew",
+      "education": "Computer Science",
+      "age": "25",
+      "job": "Service Te"
+    },
+    {
+      "id": 3,
+      "name": "wd",
+      "education": "edfe",
+      "age": "22",
+      "job": "dd"
+    },
+    {
+      "id": 4,
+      "name": "fefe",
+      "education": "bvf",
+      "age": "22",
+      "job": "cc"
+    },
+    {
+      "id": 5,
+      "name": "lhlkh",
+      "education": "nmn",
+      "age": "77",
+      "job": "mm"
+    }
+  ]
+}
